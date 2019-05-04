@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tomasz Małecki</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="../css/home.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+    <nav>
+        <div id="burger">
+            <div id="burger__circle" onclick="openOverlay();">
+                <img src="../img/burger.svg" alt="" />
+            </div>
+        </div>
+        <a href="#home" id="logo">
+            <div id="logo__avatar">
+                <p>
+                    Hello!
+                </p>
+            </div>
+        </a>
+        <div id="navOverlay" class="overlay">
+            <ul id="navbar">
+            <li><a href="#home">Hello!</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="navExit" onclick="closeOverlay();">x</div>
+        </div>
+        
+    </nav>
+    <div id="home" class="slide">
+        <div class="text__home">
+            <span><div class="slanted"><h1>Hello,</h1><h2>I'm Tom,</h2><h3>a slaptard.</h3></div><div class="scrollArrow"></div></span>
+            
+        </div>
+        
+    </div>
+    <div id="about" class="slide">
+        <div class="text__about">
+            <span>
+        <h1 class="slanted">
+          About
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere convallis ornare. Nam vel neque viverra, aliquet mi faucibus, bibendum arcu. Vestibulum dignissim nisi sit amet nulla consequat mattis. Maecenas laoreet lectus a tincidunt efficitur. Integer a arcu at nibh finibus ultrices vel sed mi. Proin tristique auctor nunc, vitae porttitor metus finibus commodo. Maecenas malesuada sagittis libero, ac convallis lectus commodo et.       </p>
+        </span>
+        </div>
+    </div>
+    <div id="projects" class="slide">
+        <div class="text__projects">
+            <span>
+          <div id="text__projects--container">
+              <a href="#" id="arrow__left">
+                 <img src="../img/arrow_left.svg" alt="" />
+              </a>
+            <h1 class="slanted">
+              Projects
+            </h1>
+            <a href="#" id="arrow__right">
+              <img src="../img/arrow_right.svg" alt="" />
+            </a>
+          </div>
+        </span>
+        </div>
+    </div>
+    <div id="contact" class="slide">
+        <div class="text__contact">
+            <span>
+          <h1 class="slanted">Contact</h1>
+          <a href="mailto:hello@malecki.com" class="text__contact--mail slanted">hello@malecki.com</a>
+        </span>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
